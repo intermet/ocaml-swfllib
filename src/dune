@@ -1,0 +1,6 @@
+(library
+ (name swflib)
+ (libraries extlib stdlib-shims)
+ (public_name swflib)
+ (flags
+  (:standard -w -69-35-27-39-6-9-32)))
