@@ -1,11 +1,7 @@
 (library
  (name swflib)
- (libraries extlib stdlib-shims)
+ (libraries extlib stdlib-shims extc)
  (public_name swflib)
-(foreign_stubs
-    (language c)
-    (names extc_stubs))
-(modules extc)
  (wrapped false)
  (flags
   (:standard -w -69-35-27-39-6-9-32)))

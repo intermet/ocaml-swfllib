@@ -10,3 +10,8 @@
  (name swflib) 
  (synopsis "Library swflib of HaxeFoundation/ocamllibs")
  (depends ocaml dune))
+
+(package
+ (name extc) 
+ (synopsis "Library swflib of HaxeFoundation/ocamllibs")
+ (depends ocaml dune))
